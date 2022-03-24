@@ -12,7 +12,7 @@ function paintToDo(newTodo) {
 
   button.addEventListener("click", (e) => {
     const li = e.target.parentElement;
-    alert("삭제 되었습니다..");
+    // alert("삭제 되었습니다..");
     li.remove();
   });
 
