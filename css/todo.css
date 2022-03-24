@@ -1,0 +1,38 @@
+ul, li ,ol {
+    list-style: none;
+}
+
+#todo-form {
+    text-align: center;
+}
+
+#todo-input {
+    width: 200px;
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    width: 70px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    background: rgb(213, 182, 182);
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.15),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.todo-list li {
+    margin: 2px 0;
+}
+
+.todo-list li span {
+    margin-right: 5px;
+}
