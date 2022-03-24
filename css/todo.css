@@ -80,11 +80,20 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 564px) {
+@media (max-width: 764px) {
     .todo-list {
         width: 80%;
     }
     .todo-list li {
         border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 564px) {
+    #todo-input {
+        width: 240px;
+    }
+    .btn {
+        width: 50px;
     }
 }
